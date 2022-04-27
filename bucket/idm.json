@@ -7,10 +7,10 @@
     "hash": "bdc405726072cf9969ccadd2173300eb022d6a9fcd013ac03f0fcfb1b0822f0d",
     "extract_dir": "IDM",
     "installer": {
-        "script": "Start-Process \"$dir\\!)绿化.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
+        "script": "sudo cmd /c \"$dir\\!)绿化.bat\""
     },
     "uninstaller": {
-        "script": "Start-Process \"$dir\\!)卸载.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
+        "script": "sudo cmd /c \"$dir\\!)卸载.bat\""
     },
     "bin": [
         [
