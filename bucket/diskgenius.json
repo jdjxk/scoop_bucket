@@ -2,6 +2,7 @@
     "version": "5.4.3.1342",
     "description": "DiskGenius",
     "homepage": "https://www.diskgenius.com/",
+    "license": "Proprietary",
     "url": "https://raw.githubusercontent.com/jdjxk/scoop_apps/main/apps/DiskGenius_v5.4.3.1342.7z",
     "hash": "1c744cad8b1d084fd60a03c88226ff5781dc9a17e225e6d2194bef2e4053e57c",
     "extract_dir": "DiskGenius",
