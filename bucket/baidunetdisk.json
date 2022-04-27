@@ -1,0 +1,27 @@
+{
+    "version": "7.15.0.15",
+    "description": "百度网盘 Windows 去广告绿色版",
+    "homepage": "https://www.423down.com/8999.html",
+    "depends": "sudo",
+    "url": "https://raw.githubusercontent.com/jdjxk/scoop_apps/main/apps/BaiduNetdisk_v7.15.0.15.7z",
+    "hash": "05eab6e34a8b1157722e7894b423a5b115a479a7d172fa6bfc2a8641e32a5745",
+    "extract_dir": "BaiduNetdisk",
+    "installer": {
+        "script": "Start-Process \"$dir\\!)绿化处理.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
+    },
+    "uninstaller": {
+        "script": "Start-Process \"$dir\\!)卸载移除.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
+    },
+    "bin": [
+        [
+            "BaiduNetdisk.exe",
+            "BaiduNetdisk"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "BaiduNetdisk.exe",
+            "百度网盘"
+        ]
+    ]
+}

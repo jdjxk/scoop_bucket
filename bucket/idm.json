@@ -1,0 +1,27 @@
+{
+    "version": "6.40.11.2",
+    "description": "Internet Download Manager",
+    "homepage": "https://www.423down.com/575.html",
+    "depends": "sudo",
+    "url": "https://raw.githubusercontent.com/jdjxk/scoop_apps/main/apps/IDM_v6.40.11.7z",
+    "hash": "bdc405726072cf9969ccadd2173300eb022d6a9fcd013ac03f0fcfb1b0822f0d",
+    "extract_dir": "IDM",
+    "installer": {
+        "script": "Start-Process \"$dir\\!)绿化.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
+    },
+    "uninstaller": {
+        "script": "Start-Process \"$dir\\!)卸载.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
+    },
+    "bin": [
+        [
+            "IDMan.exe",
+            "IDM"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "IDMan.exe",
+            "IDM"
+        ]
+    ]
+}
