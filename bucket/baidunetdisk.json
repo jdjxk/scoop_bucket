@@ -1,10 +1,10 @@
 {
-    "version": "7.16.0.6",
+    "version": "7.16.1.11",
     "description": "百度网盘 Windows 去广告绿色版",
     "homepage": "https://www.423down.com/8999.html",
     "license": "Proprietary",
-    "url": "https://raw.githubusercontent.com/jdjxk/scoop_apps/main/apps/BaiduNetdisk_v7.16.0.6.7z",
-    "hash": "04349e691f1d8c3e3c7e8603aeebf069754444db01f1a24d6e9b63038c677529",
+    "url": "https://raw.githubusercontent.com/jdjxk/scoop_apps/main/apps/BaiduNetdisk_v7.16.1.11.7z",
+    "hash": "92b242a7ae0cad9941002d14c4fe0dc9c402c9980eadbe4fef20cd10f86d6c3a",
     "extract_dir": "BaiduNetdisk",
     "installer": {
         "script": "Start-Process \"$dir\\!)绿化处理.bat\" -WorkingDirectory \"$dir\"  -Wait -Verb RunAs"
