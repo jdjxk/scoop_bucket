@@ -1,10 +1,10 @@
 {
-    "version": "9.3.0.209",
+    "version": "9.4.0.233",
     "description": "IObit Driver Booster PRO",
     "homepage": "https://www.423down.com/10421.html",
     "license": "Proprietary",
-    "url": "https://raw.githubusercontent.com/jdjxk/scoop_apps/main/apps/DriverBoosterPro_v9.3.0.209.7z",
-    "hash": "67528cf3df868ef03ce9a64085f582b489fec5453025363d2640ed917e04764f",
+    "url": "https://raw.githubusercontent.com/jdjxk/scoop_apps/main/apps/DriverBoosterPro_v9.4.0.233.7z",
+    "hash": "2f16bbc57bca666eb6e8bb3b509a9f86f9324a6dd5871ece76d8c1dce91d0cfd",
     "extract_dir": "DriverBooster",
     "bin": [
         [
